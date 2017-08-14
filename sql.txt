@@ -1,4 +1,0 @@
-use wordpress
-select option_value from wp_options where option_name="siteurl" or option_name="home";
-update wp_options set option_value = "http://[STATIC-IP-ADDRESS]" where option_name="siteurl" or option_name="home";
-select option_value from wp_options where option_name="siteurl" or option_name="home";

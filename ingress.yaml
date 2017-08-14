@@ -5,7 +5,7 @@ metadata:
     app: wordpress-ingress
   name: wordpress-ingress
   annotations:
-    kubernetes.io/ingress.global-static-ip-name: "[STATIC-IP-NAME]"
+    kubernetes.io/ingress.global-static-ip-name: "wordpress-ip"
 spec:
   backend:
     serviceName: wordpress-np

@@ -10,7 +10,7 @@ spec:
         app: wordpress
     spec:
       containers:
-        - image: wordpress:4.4.2-apache
+        - image: wordpress:4.4.10-apache
           name: web
           env:
             - name: WORDPRESS_DB_HOST
