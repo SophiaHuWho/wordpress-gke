@@ -1,5 +1,5 @@
-pod=[POD]
-static_ip=[STATIC_IP_ADDR]
+pod=$1
+static_ip=$2
 title="Wordpress Test"
 user=admin
 password=password
