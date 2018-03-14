@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: wordpress
+  name: cloudsqlproxy
 spec:
   replicas: 1
   template:
